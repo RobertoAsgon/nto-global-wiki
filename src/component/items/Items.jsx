@@ -9,31 +9,31 @@ import '../../App.css';
 function Items() {
   return (
     <Router>
-			<div className="Items">
-				<img src={Logo} alt="logo" />
-				<img id="Img_Items_Game" src={Logo_game} alt="logo" />
-				<nav>
-					{/* // Headers, Bodies, Legs, Feet, Amulets, Rings, Weapons, Defenses, Bags, Especial */}
-					<div>Headers</div> 
-					<div>Bodies</div>
-					<div>Legs</div>
-					<div>Boots</div>
-					<div>Amulets</div>
-					<div>Rings</div>
-					<div>Weapons</div>
-					<div>Defenses</div>
-					<div>Especiais</div>
-				</nav>
-				<section>
-					{DataItems.map((data) => <Card key={data.id} data={data} />)}
-				</section>
-				{/* <AnimatedSwitch
-				atEnter={{ opacity: 0 }}
-				atActive={{ opacity: 1 }}
-				>
-					<Route exact path="/" component={Anbu} />
-					<Route path="/items/:id" component={Anbu} />
-        		</AnimatedSwitch> */}
+		<div className="Items">
+			<img src={Logo} alt="logo" />
+			<img id="Img_Items_Game" src={Logo_game} alt="logo" />
+			<nav>
+				{/* // Headers, Bodies, Legs, Feet, Amulets, Rings, Weapons, Defenses, Bags, Especial */}
+				<div>Headers</div> 
+				<div>Bodies</div>
+				<div>Legs</div>
+				<div>Boots</div>
+				<div>Amulets</div>
+				<div>Rings</div>
+				<div>Weapons</div>
+				<div>Defenses</div>
+				<div>Especiais</div>
+			</nav>
+			<section>
+				{DataItems.map((data) => <Card key={data.id} data={data} />)}
+			</section>
+			{/* <AnimatedSwitch
+			atEnter={{ opacity: 0 }}
+			atActive={{ opacity: 1 }}
+			>
+				<Route exact path="/" component={Anbu} />
+				<Route path="/items/:id" component={Anbu} />
+			</AnimatedSwitch> */}
       </div>
     </Router>
   );

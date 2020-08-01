@@ -195,6 +195,49 @@ html {
   cursor: pointer;
 }
 
+.Items > section {
+  padding: 15px;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: blue solid 1px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: rgba(4, 4, 26, 0.5);
+  cursor: pointer;
+  text-decoration:none;;
+  border: rgba(0, 0, 0, 0.3)solid 1px;
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+}
+
+.Items > section > a > img {
+  width: 48px;
+}
+
+.Items > section > a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: rgba(2, 204, 240, 0.938) solid 1px;
+  background-color: rgba(4, 4, 26, 0.3);
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration:none;;
+  padding: 5px;
+}
+
+.Items > section > a:hover {
+  border: rgb(26, 240, 26) solid 1px;
+  -webkit-box-shadow: 3px 3px 7px 1px rgb(4, 240, 44);
+  -moz-box-shadow: 3px 3px 7px 1px rgb(4, 240, 44);
+  box-shadow: 3px 3px 7px 1px rgb(4, 240, 44);
+}
+
 .Missions {
   display: flex;
   flex-direction: column;
@@ -218,6 +261,7 @@ html {
   cursor: pointer;
   text-decoration:none;;
 }
+
 
 .Missions > section > a > img{
   display: flex;
