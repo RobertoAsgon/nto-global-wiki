@@ -7,11 +7,16 @@ function Details(data) {
   const dir = `/imgs/item_details/${data.location.state.data.imageDetail}.png`
   return (
     <div className="Item-Details">
-      <div id="Title-Details"><h2>{name}</h2> <p>{atribute}</p></div>
       <section>
-        <div id="Text-Details">
-          <h1>{`Level : ${level} +`}</h1>
-          <p>{description}</p>
+        <div>
+          <h1>{name}</h1>
+          <br />
+          <p>{atribute}</p>
+          <br />
+          <div id="Text-Details">
+            <b>{`Level : ${level} +`}</b>
+            <p>{description}</p>
+          </div>
         </div>
         <img src={dir} alt="eae"/>
       </section>

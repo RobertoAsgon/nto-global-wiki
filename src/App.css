@@ -267,15 +267,16 @@ html {
   box-shadow: 3px 3px 7px 1px rgb(4, 240, 44);
 }
 
-#Title-Details {
-  position: relative;
-  top: 20px;
-}
-
 #Text-Details {
   display: block;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 70%;
+  padding: 15px;
+  background-color: rgba(4, 4, 26, 0.5);
+  border: rgba(0, 0, 0, 0.3)solid 1px;
 }
 
 .Item-Details {
@@ -287,7 +288,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 500px;
+  width: 700px;
   text-align: center;
   -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
   -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
@@ -295,20 +296,28 @@ html {
 }
 
 .Item-Details > section {
-  margin: 25px;
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.Item-Details > section > div {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .Item-Details > section > img{
   border: rgba(0, 0, 0, 0.3)solid 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
-  margin: 25px;
   border: rgba(0, 0, 0, 0.3)solid 1px;
   -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
   -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
   box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
-
 }
 
 .Missions {

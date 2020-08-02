@@ -23,7 +23,7 @@ function Home() {
             <a href="https://www.facebook.com/globalnto/">NTO Global</a></blockquote>
         </div>
       </div>
-      <div id="Face-Comments" class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5" data-width="100%" data-colorscheme="dark"></div>
+      <div id="Face-Comments" class="fb-comments" data-href="https://ntoglobal.com.br" data-numposts="5" data-width="100%" data-colorscheme="dark"></div>
 	  </div>
   );
 }
