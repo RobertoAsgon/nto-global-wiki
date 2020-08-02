@@ -19,6 +19,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .Text {
@@ -72,6 +73,7 @@ html {
 .Menu {
   width: 720px;
   height: 440px;
+  animation: opacity 2s 1 forwards;
 }
 
 .Menu > img {
@@ -89,7 +91,7 @@ html {
   height: 40px;
   position: relative;
   bottom: 80px;
-  background-color: rgba(4, 4, 26, 0.5);
+  background-color: rgba(4, 4, 26, 0.7);
   -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5);
   -moz-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5);
   box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5);
@@ -110,7 +112,7 @@ html {
 }
 
 .Menu > nav > div:hover {
-  background-color: rgba(2, 2, 250, 0.3);
+  background-color: rgba(2, 138, 250, 0.3);
   border-radius: 5px;
   padding: 5px;
 }
@@ -122,7 +124,7 @@ html {
 
 .Section {
   border: rgba(0, 0, 0, 0.3)solid 1px;
-  width: 90%;
+  width: 1120px;
   background-color: rgba(4, 4, 26, 0.3);
   border-radius: 5px;
   -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5);
@@ -131,23 +133,48 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  animation: opacity 2s 1 forwards;
+  
 }
 
 .Personagens {
   display: flex;
+  max-width: 1100px;
   flex-direction: column;
   align-items: center;
+  animation: opacity 2s 1 forwards;
+  padding-bottom: 50px;
+}
+/* animation: width 2s 1 forwards; */
+
+@keyframes opacity {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 
 .Personagens > section {
   display: flex;
+  width: 75%;
   justify-content: center;
+  padding-top: 10px;
   flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: rgba(4, 4, 26, 0.5);
+  border: rgba(0, 0, 0, 0.3)solid 1px;
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
 }
 
 .Personagens > section > a {
-  padding: 5px;
+  padding: 10px;
 }
 
 .Personagens > section > a > img {
@@ -168,6 +195,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: opacity 2s 1 forwards;
 }
 
 .Items > #Img_Items_Game {
@@ -191,7 +219,8 @@ html {
 }
 
 .Items > nav > div:hover{
-  background-color: rgba(2, 2, 250, 0.3);
+  background-color: rgba(2, 138, 250, 0.3);
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -238,10 +267,55 @@ html {
   box-shadow: 3px 3px 7px 1px rgb(4, 240, 44);
 }
 
+#Title-Details {
+  position: relative;
+  top: 20px;
+}
+
+#Text-Details {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Item-Details {
+  border: rgba(0, 0, 0, 0.3)solid 1px;
+  margin: 25px;
+  background-color: rgba(4, 4, 26, 0.5);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 500px;
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+}
+
+.Item-Details > section {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Item-Details > section > img{
+  border: rgba(0, 0, 0, 0.3)solid 1px;
+  border-radius: 10px;
+  margin: 25px;
+  border: rgba(0, 0, 0, 0.3)solid 1px;
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+
+}
+
 .Missions {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: opacity 2s 1 forwards;
 }
 
 .Missions > section{
@@ -315,4 +389,55 @@ html {
 .Missions > section > a:hover {
     background-color: rgba(4, 4, 26, 0.5);
     border: rgb(26, 240, 26) solid 1px;
+}
+
+.Home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 1120px;
+  min-height: 650px;
+  animation: opacity 5s 1 forwards;
+  padding-top: 50px;
+}
+
+#Text-Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  color: white;
+  height: 550px;
+  font-size: larger;
+  width: 424px;
+  border-radius: 10px;
+  background-color: rgba(4, 4, 26, 0.6);
+  -webkit-box-shadow: 5px 5px 10px 2px rgba(42, 105, 187, 0.993);
+  -moz-box-shadow: 5px 5px 10px 2px rgba(42, 105, 187, 0.993);
+  box-shadow: 5px 5px 10px 2px rgba(42, 105, 187, 0.993);
+}
+
+#Text-Home > img {
+  border: rgba(0, 0, 0, 0.2)solid 1px;
+  border-radius: 10px;
+  position: relative;
+  top: 25px;
+  width: 471px;
+}
+
+#Facebook {
+  position: relative;
+  border: rgba(0, 0, 0, 0.3)solid 1px;
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+}
+
+#Face-Comments {
+  position: relative;
+  top:50px;
+  background-color: rgba(4, 4, 26, 0.7);
+  border-radius: 5px;
 }

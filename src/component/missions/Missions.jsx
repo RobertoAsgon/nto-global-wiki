@@ -60,10 +60,7 @@ function Missions() {
             <img id="ImgKage"src={IconKage} alt="icon anbu"/>
           </Link>
         </section>
-        <AnimatedSwitch
-          atEnter={{ opacity: 0 }}
-          atActive={{ opacity: 1 }}
-        >
+        <AnimatedSwitch>
             <Route exact path="/missions/anbu" component={Anbu} />
             <Route exact path="/missions/akatsuki" component={Akatsuki} />
             <Route exact path="/missions/otsutsuki" component={Otsutsuki} />

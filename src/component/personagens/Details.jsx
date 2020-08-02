@@ -7,7 +7,7 @@ function Details(data) {
 
 
   return (
-    <div className="Text">
+    <div className="Item-Details">
       <h1>{name}</h1>
       <p>{linkVideo}</p>
     </div>
