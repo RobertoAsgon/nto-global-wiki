@@ -26,17 +26,12 @@ function Missions() {
         <p className="Text-med">O NPC Naruto pode ser encontrado em Konoha, ajude-o para conquistar pontos de reputação.</p>
         <img src={Logo} alt="logo" />
         <p className="Text-med"> 
-          O Naruto irá te oferecer missões, ajude-o e conquiste reputação para se tornar o próximo Hokage ! <br />
           <br/>
           Genin = 50 Pontos de Reputação,<br/> Chunin = 150 Pontos de Reputação,<br/> Jounin = 300 Pontos de Reputação,<br/> Kage = 500 Pontos de Reputação. <br/>
           <br/>
-          Pontos de Reputação também são conquistados em recompensas de Quests e Eventos. <br/>
+          Pontos de Reputação também são conquistados em Quests e Eventos. <br/>
           <br/>
           Ao elevar sua classificação ninja, você libera missões e territórios exclusivos, items especiais e inúmeras outras recompensas.
-        </p>
-        <img src={Org} alt="adade" />
-        <p class="Text-med" 
-            > Todo os shinobi com as devidas classificações, poderão realizar missões para 3 organizações, Anbu ou Akatsuki, Clã Otsutsuki e Hokage ou Mizukage, etc.. !
         </p>
         <section>
           <Link to="/missions/anbu">
