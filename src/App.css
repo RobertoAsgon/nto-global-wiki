@@ -185,9 +185,9 @@ html {
 
 .Personagens > section > a > img:hover {
   border: rgb(26, 240, 26) solid 1px;
-  -webkit-box-shadow: 5px 5px 10px 1px rgb(4, 240, 44);
-  -moz-box-shadow: 5px 5px 10px 1px rgb(4, 240, 44);
-  box-shadow: 5px 5px 10px 1px rgb(4, 240, 44);
+  -webkit-box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
+  -moz-box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
+  box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
 }
 
 
@@ -235,7 +235,6 @@ html {
   margin: 15px;
   border-radius: 15px;
   background-color: rgba(4, 4, 26, 0.5);
-  cursor: pointer;
   text-decoration:none;;
   border: rgba(0, 0, 0, 0.3)solid 1px;
   -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
@@ -262,9 +261,9 @@ html {
 
 .Items > section > a:hover {
   border: rgb(26, 240, 26) solid 1px;
-  -webkit-box-shadow: 3px 3px 7px 1px rgb(4, 240, 44);
-  -moz-box-shadow: 3px 3px 7px 1px rgb(4, 240, 44);
-  box-shadow: 3px 3px 7px 1px rgb(4, 240, 44);
+  -webkit-box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
+  -moz-box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
+  box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
 }
 
 #Text-Details {
@@ -388,7 +387,7 @@ html {
 .Missions > section > a #ImgKage {
   position: relative;
   bottom: 30px;
-  width: 175px;
+  padding-top: 55px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -403,6 +402,9 @@ html {
 .Missions > section > a:hover {
     background-color: rgba(4, 4, 26, 0.5);
     border: rgb(26, 240, 26) solid 1px;
+  -webkit-box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
+  -moz-box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
+  box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
 }
 
 .Home {
@@ -454,4 +456,18 @@ html {
   top:50px;
   background-color: rgba(4, 4, 26, 0.7);
   border-radius: 5px;
+}
+
+.Map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Map > img {
+  width: 600px;
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

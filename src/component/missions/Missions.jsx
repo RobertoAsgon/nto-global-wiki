@@ -51,7 +51,7 @@ function Missions() {
           </Link>
           <Link to="/missions/kage">
             <img src={FontKage} alt="font anbu" />
-            <p className="Text-org">Level 600 + <br/> Classificação : Kage</p>
+            <p className="Text-org">Level 600 + <br /> Classificação : Kage</p>
             <img id="ImgKage"src={IconKage} alt="icon anbu"/>
           </Link>
         </section>
