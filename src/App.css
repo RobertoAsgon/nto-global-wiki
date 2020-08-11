@@ -461,13 +461,46 @@ html {
 .Map {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  height: 750px;
 }
 
-.Map > img {
-  width: 600px;
-  padding-top: 30px;
+.Map > article {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  top:50px;
+  width: 450px;
+}
+
+.Map > img {
+  cursor: pointer;
+  opacity: 0.8;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 40px;
+}
+
+.Map > img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.awssld  {
+--slider-height-percentage: 40%;
+--slider-transition-duration: 700ms;
+--organic-arrow-thickness: 4px;
+--organic-arrow-border-radius: 0px;
+--organic-arrow-height: 40px;
+--organic-arrow-color: #aa26aa;
+--control-button-width: 10%;
+--control-button-height: 25%;
+--control-button-background: transparent;
+--control-bullet-color: #2d5182;
+--control-bullet-active-color: #26456f;
+--loader-bar-color: #f221eb;
+--loader-bar-height: 6px;
 }

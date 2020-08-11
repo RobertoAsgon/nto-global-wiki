@@ -2,9 +2,9 @@ import React from 'react';
 import '../App.css';
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
-import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
-import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
+import AwsSliderStyles from 'react-awesome-slider/src/styles';
+
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -14,9 +14,9 @@ function Menu() {
       <AutoplaySlider
         play={true}
         cancelOnInteraction={false} // should stop playing on user interaction
-        interval={3000}
+        interval={4500}
         animation="cubeAnimation"
-        cssModule={AwesomeSliderStyles}
+        cssModule={AwsSliderStyles}
       >
         <div data-src="../imgs/map/1.png" />
         <div data-src="../imgs/map/2.png" />
@@ -25,8 +25,10 @@ function Menu() {
         <div data-src="../imgs/map/5.png" />
         <div data-src="../imgs/map/6.png" />
       </AutoplaySlider>
-      <img src="../imgs/mapa.png" alt="mapa"/>
-      <h1>Baixe agora !</h1>
+      <article className="Text-med">
+        <p>Baixe o mapa completo em seu computador !</p>
+      </article>
+      <img src="../imgs/download.png" alt="mapa"/>
     </div>
   );
 }
