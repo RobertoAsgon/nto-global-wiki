@@ -20,8 +20,8 @@ function Personagens() {
             São mais de 30 Personagens disponíveis, todos possuem Jutsus próprios de Ataque, Buff e no mínimo 1 Jutsu Especial.
             Os Jutsus Especiais de cada personagem podem ser uma Cura, Invocação, Jutsu de Ataque, Trap, Buff ou outros.
         </p>
-        <Route exact path="/personagem/:id" component={Details} />  
-        <section>{DataPersonagens.map((data) => <Card key={data.id} data={data} />)}</section>
+          <section>{DataPersonagens.map((data) => <Card key={data.id} data={data} />)}</section>
+          <Route exact path="/personagem/:id" component={Details} />  
         </div>
       </AnimatedSwitch>
     </Router>

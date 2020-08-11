@@ -432,9 +432,9 @@ const DataItems = [
     especial: '',
     idgame: 150,
   },
-  // Feet =========================================================================================================
+  // Boots =========================================================================================================
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Victory Naruto Boots',
     imagePath: 'imgs/item_imgs/10606.gif',
     imageDetail: 'Victory Naruto',
@@ -445,7 +445,7 @@ const DataItems = [
     idgame: 10606,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Otsutsuki Boots',
     imagePath: 'imgs/item_imgs/7762.gif',
     imageDetail: 'Hagoromo',
@@ -456,7 +456,7 @@ const DataItems = [
     idgame: 7762,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Royal Uchiha Boots',
     imagePath: 'imgs/item_imgs/11321.gif',
     imageDetail: 'Obito',
@@ -467,7 +467,7 @@ const DataItems = [
     idgame: 11321,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Ultimate Sannin Boots',
     imagePath: 'imgs/item_imgs/2474.gif',
     imageDetail: 'maintence',
@@ -478,7 +478,7 @@ const DataItems = [
     idgame: 2474,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Raikage Boots',
     imagePath: 'imgs/item_imgs/2478.gif',
     imageDetail: 'imgs/item_details/10602.png',
@@ -489,7 +489,7 @@ const DataItems = [
     idgame: 2478,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Supreme Uchiha Boots',
     imagePath: 'imgs/item_imgs/2470.gif',
     imageDetail: 'vip',
@@ -500,7 +500,7 @@ const DataItems = [
     idgame: 2470,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Kurama Boots',
     imagePath: 'imgs/item_imgs/11422.gif',
     imageDetail: 'Kyuubi',
@@ -511,7 +511,7 @@ const DataItems = [
     idgame: 11422,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Uchiha Boots',
     imagePath: 'imgs/item_imgs/2468.gif',
     imageDetail: 'Shisui',
@@ -522,7 +522,7 @@ const DataItems = [
     idgame: 2468,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Vital Boots',
     imagePath: 'imgs/item_imgs/123.gif',
     imageDetail: 'quest5',
@@ -533,7 +533,7 @@ const DataItems = [
     idgame: 123,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Madara Boots',
     imagePath: 'imgs/item_imgs/2161.gif',
     imageDetail: 'quest4',
@@ -544,7 +544,7 @@ const DataItems = [
     idgame: 2161,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Silence Boots',
     imagePath: 'imgs/item_imgs/146.gif',
     imageDetail: 'quest3',
@@ -555,7 +555,7 @@ const DataItems = [
     idgame: 146,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Chunin Boots',
     imagePath: 'imgs/item_imgs/122.gif',
     imageDetail: 'quest2',
@@ -566,7 +566,7 @@ const DataItems = [
     idgame: 122,
   },
   {
-    type: 'Feet',
+    type: 'Boots',
     name: 'Jiraya Sandal',
     imagePath: 'imgs/item_imgs/7456.gif',
     imageDetail: 'quest1',
