@@ -11,23 +11,6 @@ function Home() {
 
   return (
     <>
-      <div className="slide-home">
-        <AutoplaySlider
-          play={true}
-          cancelOnInteraction={false} // should stop playing on user interaction
-          interval={4500}
-          animation="cubeAnimation"
-          className="Slide-box"
-          cssModule={AwsSliderStyles}
-        >
-          <div data-src="../imgs/map/1.png" />
-          <div data-src="../imgs/map/2.png" />
-          <div data-src="../imgs/map/3.png" />
-          <div data-src="../imgs/map/4.png" />
-          <div data-src="../imgs/map/5.png" />
-          <div data-src="../imgs/map/6.png" />
-      </AutoplaySlider>
-      </div>
       <div className="Home">
       <div id="Text-Home">
         <h1>Bem Vindo !</h1>
