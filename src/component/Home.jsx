@@ -8,7 +8,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 function Home() {
   const dir = `/imgs/HomeRaikage.png`
-
+  
   return (
     <>
       <div className="Home">
@@ -18,7 +18,7 @@ function Home() {
         <p>Aqui você encontrará tudo e mais um pouco <br/> sobre o <b> NTO Global</b>. Fique por dentro de todas as novidades, descubra todos os segredos e não perca um evento sequer! </p>
         <img src={dir} alt="homeraikage"/>
       </div>
-			<div id="Facebook">
+	<div id="Facebook">
         <div
           class="fb-page"
           data-href="https://www.facebook.com/globalnto/"
