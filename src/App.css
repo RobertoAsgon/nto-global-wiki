@@ -57,14 +57,6 @@ html {
   box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
 }
 
-.slide-home {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15px;
-  width: 90%;
-  border-radius: 25px;
-}
 
 .Text-org {
   text-align: center;
@@ -151,7 +143,6 @@ html {
   flex-direction: column;
   justify-content: center;
   animation: opacity 2s 1 forwards;
-  
 }
 
 .Personagens {
@@ -160,7 +151,6 @@ html {
   flex-direction: column;
   align-items: center;
   animation: opacity 2s 1 forwards;
-  padding-bottom: 50px;
 }
 /* animation: width 2s 1 forwards; */
 
@@ -188,6 +178,7 @@ html {
   -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
   -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
   box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  margin-bottom: 50px;
 }
 
 .Personagens > section > a {
@@ -213,6 +204,7 @@ html {
   flex-direction: column;
   align-items: center;
   animation: opacity 2s 1 forwards;
+  margin-bottom: 50px;
 }
 
 .Items > #Img_Items_Game {
@@ -245,20 +237,19 @@ html {
 .Items > section {
   position: relative;
   top: 15px;
-  width: 75%;
+  max-width: 850px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  border: blue solid 1px;
+  justify-content: space-around;
+  align-content: space-around;
+
   margin: 15px;
   border-radius: 15px;
-  background-color: rgba(4, 4, 26, 0.5);
-  text-decoration:none;;
-  border: rgba(0, 0, 0, 0.3)solid 1px;
-  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
-  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
-  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+}
+
+#item-section {
+  margin-bottom: 50px;
 }
 
 .Items > section > a > img {
@@ -270,12 +261,14 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   border: rgba(2, 204, 240, 0.938) solid 1px;
-  background-color: rgba(4, 4, 26, 0.3);
+  background-color: rgba(4, 4, 26, 0.596);
   margin: 10px;
   border-radius: 10px;
   cursor: pointer;
   text-decoration:none;;
   padding: 5px;
+  width: 48px;
+  height: 48px;
 }
 
 .Items > section > a:hover {
@@ -349,6 +342,7 @@ html {
   flex-direction: column;
   align-items: center;
   animation: opacity 2s 1 forwards;
+  margin-bottom: 50px;
 }
 
 .Missions > section{
@@ -435,7 +429,7 @@ html {
   justify-content: space-evenly;
   min-width: 1120px;
   min-height: 650px;
-  animation: opacity 5s 1 forwards;
+  animation: opacity 2s 1 forwards;
   padding-top: 50px;
 }
 
@@ -445,14 +439,23 @@ html {
   align-items: center;
   padding: 25px;
   color: white;
-  height: 550px;
+  height: 575px;
   font-size: larger;
-  width: 424px;
+  width: 900px;
   border-radius: 10px;
   background-color: rgba(4, 4, 26, 0.6);
   -webkit-box-shadow: 5px 5px 10px 2px rgba(42, 105, 187, 0.993);
   -moz-box-shadow: 5px 5px 10px 2px rgba(42, 105, 187, 0.993);
   box-shadow: 5px 5px 10px 2px rgba(42, 105, 187, 0.993);
+  margin-bottom: 50px;
+}
+
+
+#Slide-Home {
+  margin-top: 50px;
+  width: 900px;
+  height: 800px;
+  border-radius: 15px;
 }
 
 #Text-Home > img {
@@ -463,20 +466,6 @@ html {
   width: 471px;
 }
 
-#Facebook {
-  position: relative;
-  border: rgba(0, 0, 0, 0.3)solid 1px;
-  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
-  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
-  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
-}
-
-#Face-Comments {
-  position: relative;
-  top:50px;
-  background-color: rgba(4, 4, 26, 0.7);
-  border-radius: 5px;
-}
 
 .Map {
   display: flex;
@@ -541,6 +530,7 @@ html {
 }
 
 .awssld  {
+
 --slider-height-percentage: 40%;
 --slider-transition-duration: 900ms;
 --organic-arrow-thickness: 8px;
@@ -554,4 +544,21 @@ html {
 --control-bullet-active-color: #16294da1;
 --loader-bar-color: transparent;
 --loader-bar-height: 0px;
+}
+
+.aws-btn {
+  
+--slider-height-percentage: 80%;
+--slider-transition-duration: 700ms;
+--organic-arrow-thickness: 4px;
+--organic-arrow-border-radius: 0px;
+--organic-arrow-height: 40px;
+--organic-arrow-color: #26456f;
+--control-button-width: 10%;
+--control-button-height: 25%;
+--control-button-background: transparent;
+--control-bullet-color: #2d5182;
+--control-bullet-active-color: #26456f;
+--loader-bar-color: #851515;
+--loader-bar-height: 6px;
 }

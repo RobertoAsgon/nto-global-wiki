@@ -16,16 +16,12 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Menu />
-          <AnimatedSwitch
-            className="Section"
-        >
-            <Route exact path="/" component={Home} />
-            <Route exact path="/personagens" component={Personagens} />
-            <Route exact path="/items" component={Items} />
-            <Route exact path="/missions" component={Missions} />
-            <Route exact path="/map" component={Map} />
-            <Route exact path="/youtube" component={Youtube} />
-        </AnimatedSwitch>
+        <Route exact path="/wiki" component={Home} />
+        <Route exact path="/personagens" component={Personagens} />
+        <Route exact path="/items" component={Items} />
+        <Route exact path="/missions" component={Missions} />
+        <Route exact path="/map" component={Map} />
+        <Route exact path="/youtube" component={Youtube} />
       </div>
     </BrowserRouter>
   );

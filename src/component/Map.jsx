@@ -10,6 +10,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 function Map() {
   return (
+    <div className="Section">
     <div className="Map">
       <container>
         <AutoplaySlider
@@ -32,6 +33,7 @@ function Map() {
         <p>Baixe o mapa completo em seu computador!</p>
       </article>
       <img src="../imgs/download.png" alt="mapa"/>
+    </div>
     </div>
   );
 }

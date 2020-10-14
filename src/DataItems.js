@@ -906,7 +906,7 @@ const DataItems = [
     type: 'Shields',
     name: 'Naruto Victory Shield',
     imagePath: 'imgs/item_imgs/11229.gif',
-    imageDetail: 'Naruto Victory',
+    imageDetail: 'maintence',
     level: 1,
     atribute: '',
     description: '',

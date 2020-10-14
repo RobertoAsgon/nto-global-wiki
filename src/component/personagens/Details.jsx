@@ -8,7 +8,7 @@ function Details(data) {
   useEffect(() => {
     const element = document.getElementById("Item-Details");
     element.scrollIntoView();
-  }, []);
+  }, [data.location.state]);
 
   return (
     <div id="Item-Details" className="Item-Details">
