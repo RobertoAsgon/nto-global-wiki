@@ -20,7 +20,7 @@ function Details(data) {
             <p id ="Here">{atribute}</p>
             <br />
             <div id="Text-Details">
-              <b>{`Level : ${level} +`}</b>
+              <b>{`Level : ${level}`}</b>
               <p>{description}</p>
             </div>
           </div>

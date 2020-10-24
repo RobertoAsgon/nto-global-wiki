@@ -345,6 +345,28 @@ html {
   margin-bottom: 50px;
 }
 
+.Text-med-missions {
+  text-align: center;
+  color: white;
+  margin: 20px;
+  width: 80%;
+  font-size: medium;
+  background-color: rgba(4, 4, 26, 0.8);
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+}
+
+.Text-med-missions > img {
+  width: 890px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
 .Missions > section{
   display: flex;
   flex-direction: row;
@@ -419,6 +441,21 @@ html {
   -webkit-box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
   -moz-box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
   box-shadow: 2px 2px 10px 1px rgb(4, 240, 44);
+}
+
+.Text-med-mission {
+  text-align: center;
+  color: white;
+  margin: 20px;
+  width: 80%;
+  font-size: medium;
+  background-color: rgba(4, 4, 26, 0.8);
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  -moz-box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
+  box-shadow: 5px 5px 10px 1px rgba(42, 105, 187, 0.993);
 }
 
 .Home {

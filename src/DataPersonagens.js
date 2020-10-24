@@ -35,12 +35,12 @@ const DataPersonagens = [
   //   imagePath: 'imgs/perso_imgs/hinata.png',
   //   linkVideo: 'www.youtube.com/LINK-VIDEO',
   // },
-  {
-    id: 7,
-    name: 'Sai',
-    imagePath: 'imgs/perso_imgs/sai.png',
-    linkVideo: 'www.youtube.com/LINK-VIDEO',
-  },
+  // {
+  //   id: 7,
+  //   name: 'Sai',
+  //   imagePath: 'imgs/perso_imgs/sai.png',
+  //   linkVideo: 'www.youtube.com/LINK-VIDEO',
+  // },
   {
     id: 8,
     name: 'Shikamaru',
@@ -107,12 +107,12 @@ const DataPersonagens = [
   //   imagePath: 'imgs/perso_imgs/orochimaru.png',
   //   linkVideo: 'www.youtube.com/LINK-VIDEO',
   // },
-  {
-    id: 19,
-    name: 'Jiraya',
-    imagePath: 'imgs/perso_imgs/jiraya.png',
-    linkVideo: 'www.youtube.com/LINK-VIDEO',
-  },
+  // {
+  //   id: 19,
+  //   name: 'Jiraya',
+  //   imagePath: 'imgs/perso_imgs/jiraya.png',
+  //   linkVideo: 'www.youtube.com/LINK-VIDEO',
+  // },
   {
     id: 20,
     name: 'Tsunade',
@@ -209,12 +209,12 @@ const DataPersonagens = [
   //   imagePath: 'imgs/perso_imgs/kakuzo.png',
   //   linkVideo: 'www.youtube.com/LINK-VIDEO',
   // },
-  {
-    id: 36,
-    name: 'Nagato',
-    imagePath: 'imgs/perso_imgs/nagato.png',
-    linkVideo: 'www.youtube.com/LINK-VIDEO',
-  },
+  // {
+  //   id: 36,
+  //   name: 'Nagato',
+  //   imagePath: 'imgs/perso_imgs/nagato.png',
+  //   linkVideo: 'www.youtube.com/LINK-VIDEO',
+  // },
   {
     id: 37,
     name: 'Shisui',

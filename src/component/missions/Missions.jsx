@@ -7,7 +7,7 @@ import Akatsuki from './Akatsuki';
 import Otsutsuki from './Otsutsuki';
 import Kage from './Kage';
 import Logo from '../../imgs/graduacao.png';
-import Org from '../../imgs/orgs.png';
+import Leveleskill from '../../imgs/leveleskill.png';
 import FontAnbu from '../../imgs/org_imgs/font_anbu.png';
 import FontAkatsuki from '../../imgs/org_imgs/font_akatsuki.png';
 import FontOtsutsuki from '../../imgs/org_imgs/font_otsutsuki.png';
@@ -19,21 +19,47 @@ import IconKage from '../../imgs/org_imgs/Kage.png';
 
 import '../../App.css';
 
+// Genin = 50 Pontos de Reputação,
+// Chunin = 150 Pontos de Reputação,
+// Jounin = 300 Pontos de Reputação,
+// Kage = 500 Pontos de Reputação.
+
+// Pontos de Reputação também são conquistados em Quests e Eventos.
+
+// Ao elevar sua classificação ninja, você libera missões e territórios exclusivos, items especiais e inúmeras outras recompensas.
+
 function Missions() {
+
   return (
     <Router>
       <div className="Section">
         <div className="Missions">
-          <p className="Text-med">O NPC Naruto pode ser encontrado em Konoha, ajude-o para conquistar pontos de reputação.</p>
-          <img src={Logo} alt="logo" />
-          <p className="Text-med"> 
-            <br/>
-            Genin = 50 Pontos de Reputação,<br/> Chunin = 150 Pontos de Reputação,<br/> Jounin = 300 Pontos de Reputação,<br/> Kage = 500 Pontos de Reputação. <br/>
-            <br/>
-            Pontos de Reputação também são conquistados em Quests e Eventos. <br/>
-            <br/>
-            Ao elevar sua classificação ninja, você libera missões e territórios exclusivos, items especiais e inúmeras outras recompensas.
-          </p>
+          <div className="Text-med-missions"> 
+            <h2>Level & Skill</h2>
+            <img src={Leveleskill} alt="logo" />
+            <p>Para aqueles que desejam aprimorar sua resistencia e causar maior dano, será necessário muito treino além de experiência.</p>
+            <br />
+            <p>As principais formas de se adquirir experiência:</p>
+            <br />
+            <p>Realizando missões.</p>
+            <p>Derrotando criaturas em Hunt's.</p>
+            <p>Encontrando Kekkeis Generators.</p>
+            <p>☠️ Pklizando.</p>
+            <br />
+            <h2>Missões & Quests</h2>
+            <img src={Logo} alt="logo" />
+            <p>Ajude o Naruto, ou qualquer outro NPC, faça novas Quests, isso fará com que você acumule pontos de reputação. "!rep"</p>
+            <br />
+            <br />
+            <p>Para aumentar o nível da sua classificação ninja, você deve atingir uma certa quantidade de pontos.</p>
+            <br />
+            <p>Genin = 50 Pontos de Reputação.</p>
+            <p>Chunin = 150 Pontos de Reputação.</p>
+            <p>Jounin = 300 Pontos de Reputação.</p>
+            <p>Kage = 1000 Pontos de Reputação.</p>
+            <br />
+            <p>A sua classe é o que determinará se você tem ou não, permissão, para acessar certos locais do mapa.</p>
+          </div>
           <section>
             <Link to="/missions/anbu">
               <img src={FontAnbu} alt="font anbu" />

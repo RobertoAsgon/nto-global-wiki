@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import { AnimatedSwitch } from 'react-router-transition';
 import Menu from './component/Menu.jsx';
 import Items from './component/items/Items';
 import Personagens from './component/personagens/Personagens';
@@ -16,10 +15,10 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Menu />
-        <Route exact path="/wiki" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/personagens" component={Personagens} />
         <Route exact path="/items" component={Items} />
-        <Route exact path="/missions" component={Missions} />
+        <Route exact path="/objetivo" component={Missions} />
         <Route exact path="/map" component={Map} />
         <Route exact path="/youtube" component={Youtube} />
       </div>
