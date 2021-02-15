@@ -17,7 +17,7 @@ function Personagens() {
         <div className="Personagens">
           <img src={Logo} alt="logo" />
           <p className="Text-med"> 
-              São mais de 30 Personagens disponíveis, todos possuem Jutsus próprios de Ataque, Buff e no mínimo 1 Jutsu Especial.
+              São 50 Personagens disponíveis, todos possuem Jutsus próprios de Ataque, Buff e no mínimo 1 Jutsu Especial.
               Os Jutsus Especiais de cada personagem podem ser uma Cura, Invocação, Jutsu de Ataque, Trap, Buff ou outros.
           </p>
             <section>{DataPersonagens.map((data) => <Card key={data.id} data={data} />)}

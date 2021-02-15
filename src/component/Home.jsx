@@ -9,8 +9,6 @@ import AwsSliderStyles from 'react-awesome-slider/src/styles';
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 function Home() {
-  const dir = `/imgs/HomeRaikage.png`
-  
   return (
     <div className="Section">
       <div className="Home">
